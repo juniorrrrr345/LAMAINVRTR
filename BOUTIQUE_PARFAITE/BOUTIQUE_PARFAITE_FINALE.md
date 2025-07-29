@@ -38,10 +38,11 @@ Elle est prête à être déployée pour n'importe quel client.
 
 ## 🎨 POUR PERSONNALISER
 
-### Changer "PLUG" → "JBEL" (ou autre nom)
+### Le nom est déjà changé !
 ```
 src/components/admin/AdminDashboard.tsx
-- Ligne 59 et 107
+- Déjà configuré avec "JBEL INDUSTRY"
+- Si vous voulez un autre nom, chercher "JBEL INDUSTRY"
 ```
 
 ### Changer les couleurs

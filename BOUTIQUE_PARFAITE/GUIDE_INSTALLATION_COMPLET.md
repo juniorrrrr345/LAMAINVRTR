@@ -78,6 +78,23 @@ Cette boutique inclut TOUTES les corrections apportées. Voici la liste complèt
 - Export nommé ajouté
 - **Fichier** : `src/lib/contentCache.ts` → `export { contentCache }`
 
+### 11. ❌ BUG : "Texte 'Suivez' peu visible sur page social"
+**✅ RÉSOLU** :
+- Texte en blanc avec fond semi-transparent
+- Nom de la boutique en jaune pour plus de visibilité
+- **Fichier** : `src/app/social/page.tsx`
+
+### 12. ❌ BUG : "Badge 'CURE AU TOP' non pertinent"
+**✅ RÉSOLU** :
+- Badge complètement supprimé
+- **Fichier** : `src/components/ProductDetail.tsx`
+
+### 13. ❌ BUG : "PLUG au lieu du nom de la boutique dans admin"
+**✅ RÉSOLU** :
+- Remplacé par "JBEL INDUSTRY" partout
+- Desktop, mobile et tablette
+- **Fichier** : `src/components/admin/AdminDashboard.tsx`
+
 ---
 
 ## 📋 INSTALLATION COMPLÈTE ÉTAPE PAR ÉTAPE
