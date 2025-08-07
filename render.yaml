@@ -5,7 +5,7 @@ services:
     repo: https://github.com/juniorrrrr345/LAMAINVRTR
     branch: main
     buildCommand: npm install
-    startCommand: node bot-webhook.js
+    startCommand: node bot-mongodb.js
     envVars:
       - key: NODE_ENV
         value: production
