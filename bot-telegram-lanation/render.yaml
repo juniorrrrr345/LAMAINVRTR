@@ -2,10 +2,10 @@ services:
   - type: web
     name: telegram-bot-lanation
     runtime: node
-    repo: https://github.com/votre-username/votre-repo
+    repo: https://github.com/juniorrrrr345/LAMAINVRTR
     branch: main
     buildCommand: npm install
-    startCommand: node bot-mongodb.js
+    startCommand: node bot-webhook.js
     envVars:
       - key: NODE_ENV
         value: production
